@@ -13,7 +13,7 @@ body{
   height: 100%;
 }
 
-.title h1{
+h1{
   position: absolute;
   top: 30%;
   left: 50%;
@@ -24,7 +24,7 @@ body{
   color: #152238;
 }
 
-.title h1::before{
+h1::before{
   content: attr(data-text);
   position: absolute;
   top: 0;
