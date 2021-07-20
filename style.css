@@ -67,9 +67,11 @@ h1::before{
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255,255,255,0.2);
+  background: rgba(117, 91, 234 ,0.2);
   animation: bg-animation 20s linear infinite;
   bottom: -150px;
+  box-shadow: 0 0 10px #755bea,
+  0 0 20px #755bea
 }
 
 .box li:nth-child(1){
@@ -100,7 +102,8 @@ h1::before{
   height: 150px;
   animation-delay: 0s;
   animation-duration: 15s;
-  
+}
+
 .box li:nth-child(5){
   left: 65%;
   width: 40px;
