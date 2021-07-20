@@ -8,8 +8,7 @@
 }
 
 body{
-  background-color: #050A30;
-  color: #755bea;
+  background-color: #22277A;
   width: 100%;
   height: 100%;
 }
@@ -20,4 +19,30 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 50px;
+  -webkit-text-stroke: 0.3vh #A8A9AD;
+  text-transform: uppercase;
+  color: #22277A;
+}
+
+.title h1::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #755bea;
+  -webkit-text-stroke: 0vh #A8A9AD;
+  border-right: 2px #755bea;
+  overflow: hidden;
+  animation: animate 3s linear-infinite;
+}
+
+@keyframe animate{
+  0%, 10%, 100%{
+    width: 0;
+  }
+  70%, 90%{
+    width: 100%;
+  }
 }
