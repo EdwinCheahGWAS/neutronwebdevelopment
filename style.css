@@ -34,7 +34,7 @@ h1::before{
   overflow: hidden;
   color: #755bea;
   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-  animation: animate 4s linear infinite;
+  animation: animate 6s linear infinite;
   outline: none;
 }
 
