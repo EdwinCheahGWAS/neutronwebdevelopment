@@ -129,7 +129,9 @@ header {
 }
 
 .btn {
+  position: absolute;
   top: 65%;
+  left: 50%;
   margin-top: 1rem;
   padding: 0.6rem 1.8rem;
   background-color: #755bea;
