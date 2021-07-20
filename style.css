@@ -324,7 +324,6 @@ h1::before{
   border-right: 2px solid #755bea;
   overflow: hidden;
   color: #755bea;
-  -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
   animation: animate 6s linear infinite;
   outline: none;
 }
