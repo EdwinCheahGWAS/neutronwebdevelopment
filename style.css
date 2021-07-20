@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: #22277A;
+  background-color: #152238;
   width: 100%;
   height: 100%;
 }
@@ -21,7 +21,7 @@ body{
   font-size: 50px;
   -webkit-text-stroke: 0.3vh #A8A9AD;
   text-transform: uppercase;
-  color: #22277A;
+  color: #152238;
 }
 
 .title h1::before{
