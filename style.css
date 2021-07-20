@@ -137,11 +137,14 @@ header {
   background-color: #755bea;
   border: none;
   border-radius: 25px;
+  box-shadow: 0 0 5px #755bea
+}
+
+.btn a{
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
-  box-shadow: 0 0 5px #755bea
 }
 
 .container.active .bar {
