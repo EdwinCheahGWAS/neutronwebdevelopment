@@ -19,7 +19,7 @@ h1{
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 50px;
-  -webkit-text-stroke: 0.3vh #A8A9AD;
+  -webkit-text-stroke: 0.3vw #A8A9AD;
   text-transform: uppercase;
   color: #152238;
 }
@@ -32,8 +32,8 @@ h1::before{
   width: 0;
   height: 100%;
   color: #755bea;
-  -webkit-text-stroke: 0vh #A8A9AD;
-  border-right: 2px #755bea;
+  -webkit-text-stroke: 0vw #A8A9AD;
+  border-right: 2px solid #755bea;
   overflow: hidden;
   animation: animate 3s linear-infinite;
 }
