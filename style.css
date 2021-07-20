@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  justify-content: center;
-  align-items: center;
 }
 
 body{
@@ -13,13 +11,10 @@ body{
   color: #755bea
 }
 
-.title{
-  position: relative;
+.title h1{
+  position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
-}
-
-.title h1{
-  position: absolute;
+  font-size: 70px;
 }
