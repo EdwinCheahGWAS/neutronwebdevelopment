@@ -49,10 +49,12 @@ button {
   float: left;
   margin-left: 50px;
   left: 9%;
+  text-shadow: 0 0 5px #755bea;
 }
 
 .logo span {
   font-weight: 300;
+  text-shadow: none;
 }
 
 .hamburger-menu {
