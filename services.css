@@ -39,6 +39,9 @@ button {
   color: #fff;
 }
 
+.menu img{
+  z-index: 1;
+}
 .logo {
   font-size: 1.1rem;
   font-weight: 600;
@@ -125,7 +128,8 @@ header {
 }
 
 .title {
-  font-size: 2.7rem;
+  font-size: 1.5rem;
+  position: absolute;
 }
 
 .btn {
