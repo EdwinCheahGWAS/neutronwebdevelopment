@@ -137,7 +137,7 @@ header {
   background-color: #755bea;
   border: none;
   border-radius: 25px;
-  box-shadow: 0 0 5px #755bea
+  box-shadow: 0 0 5px #755bea;
 }
 
 .btn a{
@@ -318,7 +318,7 @@ h2{
   transform: translate(-50%,-50%);
   font-size: 24px;
   color: #755bea;
-  text-shadow: 0 0 5px #755bea
+  text-shadow: 0 0 5px #755bea;
 }
 
 h1{
@@ -378,7 +378,7 @@ h1::before{
   animation: bg-animation 20s linear infinite;
   bottom: -150px;
   box-shadow: 0 0 10px #755bea,
-  0 0 20px #755bea
+  0 0 20px #755bea;
 }
 
 .box li:nth-child(1){
