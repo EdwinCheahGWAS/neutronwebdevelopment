@@ -43,17 +43,24 @@ button {
   z-index: 1;
 }
 .logo {
+  position: absolute;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 4rem;
+  float: left;
+  margin-left: 50px;
+  left: 7%;
 }
 
 .logo span {
   font-weight: 300;
 }
 
+.img {
+  float: left;
+}
 .hamburger-menu {
   height: 4rem;
   width: 3rem;
@@ -120,6 +127,10 @@ header {
   align-items: center;
 }
 
+.img {
+  float: left;
+}
+
 .inner {
   max-width: 35rem;
   text-align: center;
@@ -129,26 +140,6 @@ header {
 
 .title {
   font-size: 1.5rem;
-  position: absolute;
-}
-
-.btn {
-  position: absolute;
-  top: 65%;
-  left: 45%;
-  margin-top: 1rem;
-  padding: 0.6rem 1.8rem;
-  background-color: #755bea;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0 0 5px #755bea;
-}
-
-.btn a{
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .container.active .bar {
