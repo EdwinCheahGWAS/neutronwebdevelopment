@@ -40,11 +40,15 @@ button {
 }
 
 .logo {
+  position: absolute;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 4rem;
+  float: left;
+  margin-left: 50px;
+  left: 8.5%;
 }
 
 .logo span {
